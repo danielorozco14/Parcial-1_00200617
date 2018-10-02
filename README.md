@@ -7,3 +7,5 @@ Evaluación Teorica:
 
 Evaluación Práctica:
     https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+    https://www.w3schools.com/css/css3_buttons.asp
+    https://www.w3schools.com/css/css_rwd_images.asp
