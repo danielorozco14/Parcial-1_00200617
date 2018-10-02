@@ -3,10 +3,10 @@
 }
 a,p{
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
     color: #fff;
 }
 body{
-    display: flex;
     position: absolute;
     margin:0;   
 }
@@ -21,13 +21,23 @@ body{
 }
 .titulo{
     font-family: 'Monoton', cursive;
-    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 3px;
     color: #f5f5f5;
-    font-size: 2em;
+    font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.titulo h4{
+    position: relative;
+    left: 0;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 3px;
 }
 .imagenFondo{
     width: 100%;
@@ -44,6 +54,12 @@ body{
     top: 8.8%;
     left: 0;
     width: 100%;
-    height:90%;
+    height:85%;
 }
 
+.galeriaImagenes{
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-auto-rows: auto auto;
+}
